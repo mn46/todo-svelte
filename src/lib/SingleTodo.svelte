@@ -2,4 +2,4 @@
   let { todo } = $props();
 </script>
 
-<p>{todo.name}</p>
+<p>{todo.task}</p>
