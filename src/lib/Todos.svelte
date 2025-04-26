@@ -17,9 +17,11 @@
 </script>
 
 <div class="flex flex-col justify-between p-6 rounded-lg bg-white/40">
-  {#each todos as todo}
-    <SingleTodo {todo} />
-  {/each}
+  <div class="space-y-2">
+    {#each todos as todo}
+      <SingleTodo {todo} />
+    {/each}
+  </div>
 
   <div class="w-full flex flex-col md:flex-row gap-2">
     <input
