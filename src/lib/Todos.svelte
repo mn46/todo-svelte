@@ -21,8 +21,16 @@
     <SingleTodo {todo} />
   {/each}
 
-  <div>
-    <input type="text" bind:value={newTodoTask} />
-    <button onclick={() => handleAddTodo()}>Add todo</button>
+  <div class="w-full flex flex-col md:flex-row gap-2">
+    <input
+      type="text"
+      bind:value={newTodoTask}
+      class="w-full bg-white rounded-full border-2 border-text"
+    />
+    <button
+      onclick={() => handleAddTodo()}
+      class="min-w-max bg-primary rounded-lg py-1 px-2 border-2 border-text"
+      >Add todo</button
+    >
   </div>
 </div>
