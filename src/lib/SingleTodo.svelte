@@ -13,11 +13,11 @@
     </label>
   </div>
   <div class="space-x-2">
-    <button>
-      <img src={editIcon} />
+    <button aria-label="edit">
+      <img src={editIcon} alt="edit icon" />
     </button>
-    <button>
-      <img src={deleteIcon} />
+    <button aria-label="delete">
+      <img src={deleteIcon} alt="delete icon" />
     </button>
   </div>
 </div>
